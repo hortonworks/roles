@@ -20,6 +20,9 @@
 #
 class roles::openstack::controller {
 
-  include profiles::rabbitmq::server
+  include ::profiles::common::users
+  include ::profiles::common::packages
+  include ::profiles::puppet::agent
+  include ::profiles::rabbitmq::server
 
 }
