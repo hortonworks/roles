@@ -25,5 +25,6 @@ class roles::openstack::controller {
   include ::profiles::puppet::agent
   include ::profiles::rabbitmq::server
   include ::profiles::mysql::server
+  include ::profiles::keystone::server
 
 }

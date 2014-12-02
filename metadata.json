@@ -1,6 +1,6 @@
 {
   "name": "sbrimhall/roles",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "sbrimhall",
   "summary": "Module for Puppet roles",
   "license": "Apache 2.0",
