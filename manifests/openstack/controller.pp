@@ -26,5 +26,6 @@ class roles::openstack::controller {
   include ::profiles::rabbitmq::server
   include ::profiles::mysql::server
   include ::profiles::keystone::server
+  include ::profiles::nova::controller
 
 }
