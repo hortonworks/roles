@@ -23,6 +23,6 @@ class roles::openstack::compute {
   include ::profiles::common::users
   include ::profiles::common::packages
   include ::profiles::puppet::agent
-  include ::profiles::nova::compute
+  include ::profiles::openstack::nova::compute
 
 }
