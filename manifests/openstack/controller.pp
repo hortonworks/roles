@@ -23,9 +23,10 @@ class roles::openstack::controller {
   include ::profiles::common::users
   include ::profiles::common::packages
   include ::profiles::puppet::agent
-  include ::profiles::rabbitmq::server
-  include ::profiles::mysql::server
-  include ::profiles::keystone::server
-  include ::profiles::nova::controller
+#  include ::profiles::rabbitmq::server
+#  include ::profiles::mysql::server
+#  include ::profiles::keystone::server
+#  include ::profiles::nova::controller
+  include ::openstack::role::controller
 
 }
