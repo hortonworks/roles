@@ -27,5 +27,6 @@ class roles::openstack::controller {
   include ::profiles::mysql::server
   include ::profiles::openstack::keystone::server
   include ::profiles::openstack::nova::controller
+  include ::profiles::openstack::cinder::controller
 
 }
