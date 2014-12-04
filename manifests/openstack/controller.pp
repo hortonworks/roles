@@ -30,5 +30,6 @@ class roles::openstack::controller {
   include ::profiles::openstack::cinder::controller
   include ::profiles::openstack::horizon
   include ::profiles::openstack::glance
+  include ::profiles::openstack::neutron::server
 
 }
