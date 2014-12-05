@@ -25,5 +25,6 @@ class roles::openstack::compute {
   include ::profiles::puppet::agent
   include ::profiles::openstack::nova::compute
   include ::profiles::openstack::cinder::storage
+  include ::profiles::openstack::neutron::client
 
 }
