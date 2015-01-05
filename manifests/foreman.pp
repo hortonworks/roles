@@ -31,5 +31,6 @@ class roles::foreman {
 
   include ::profiles::common::users
   include ::profiles::common::packages
+  include ::profiles::datadog::puppet
 
 }
