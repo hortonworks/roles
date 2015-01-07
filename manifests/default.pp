@@ -32,6 +32,6 @@ class roles::default {
   include ::profiles::common::users
   include ::profiles::common::packages
   include ::profiles::puppet::agent
-  include ::profiles::datadog::agent
+#  include ::profiles::datadog::agent
 
 }
