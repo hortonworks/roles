@@ -16,15 +16,13 @@
 #
 # === Copyright
 #
-# Copyright 2014, Hortonworks, LLC
+# Copyright 2015, Hortonworks, LLC
 #
 class roles::openstack::compute {
 
   include ::profiles::common::users
   include ::profiles::common::packages
   include ::profiles::puppet::agent
-  include ::profiles::openstack::nova::compute
-  include ::profiles::openstack::cinder::storage
-  include ::profiles::openstack::neutron::client
+  include ::profiles::openstack::compute
 
 }

@@ -24,5 +24,6 @@ class roles::openstack::controller {
   include ::profiles::common::packages
   include ::profiles::puppet::agent
   include ::profiles::datadog::agent
+  include ::profiles::openstack::controller
 
 }
