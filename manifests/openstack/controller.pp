@@ -23,13 +23,6 @@ class roles::openstack::controller {
   include ::profiles::common::users
   include ::profiles::common::packages
   include ::profiles::puppet::agent
-  include ::profiles::rabbitmq::server
-  include ::profiles::mysql::server
-  include ::profiles::openstack::keystone::server
-  include ::profiles::openstack::nova::controller
-  include ::profiles::openstack::cinder::controller
-  include ::profiles::openstack::horizon
-  include ::profiles::openstack::glance
-#  include ::profiles::openstack::neutron::server
+  include ::profiles::datadog::agent
 
 }
