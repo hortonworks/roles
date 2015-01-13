@@ -21,6 +21,7 @@
 class roles::openstack::compute {
 
   include ::profiles::common::users
+  include ::profiles::common::sudo
   include ::profiles::common::packages
   include ::profiles::puppet::agent
   include ::profiles::openstack::compute

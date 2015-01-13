@@ -37,5 +37,6 @@
 #
 class roles {
 
+  # Ain't nothing here
 
 }
