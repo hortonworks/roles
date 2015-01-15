@@ -32,6 +32,7 @@ class roles::foreman {
   include ::profiles::common::users
   include ::profiles::common::sudo
   include ::profiles::common::packages
-  include ::profiles::datadog::puppet
+  include ::profiles::datadog::agent
+  include ::profiles::datadog::httpd
 
 }
