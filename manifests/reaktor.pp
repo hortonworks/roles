@@ -15,7 +15,7 @@
 #
 # Copyright 2015, Hortonworks, LLC
 #
-class roles::zabbix::server {
+class roles::reaktor {
 
   include ::profiles::common::users
   include ::profiles::common::sudo
